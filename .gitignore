@@ -55,8 +55,15 @@ gulpfile.tmp.*
 # **/static/vendor
 
 # HTML files
+!/html/*
 /html-demo
 /html-starter-demo
+/html/vertical-menu-template/*
+/html/horizontal-menu-template/*
+/html/vertical-menu-template-no-customizer/*
+/html/horizontal-menu-template-no-customizer/*
+/html/front-pages/*
+/html/front-pages-no-customizer/*
 
 # Package Lock files
 /package-lock.json
