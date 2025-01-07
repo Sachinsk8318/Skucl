@@ -1,52 +1,62 @@
-# http://www.gnu.org/software/automake
+# System Files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
-.deps/
-.dirstamp
+# Thumbnails
+._*
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# http://www.gnu.org/software/autoconf
+# Dump file
+*.stackdump
 
-autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.cache
-/config.guess
-/config.h.in
-/config.log
-/config.status
-/config.sub
-/configure
-/configure.scan
-/depcomp
-/install-sh
-/missing
-/stamp-h1
+# Folder config file
+[Dd]esktop.ini
 
-# https://www.gnu.org/software/libtool/
+# Windows shortcuts
+*.lnk
 
-/ltmain.sh
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# http://www.gnu.org/software/texinfo
+# Dependency directories
+node_modules
 
-/texinfo.tex
+# Optional npm cache directory
+.npm
 
-# http://www.gnu.org/software/m4/
+# Optional eslint cache
+.eslintcache
 
-m4/libtool.m4
-m4/ltoptions.m4
-m4/ltsugar.m4
-m4/ltversion.m4
-m4/lt~obsolete.m4
+# Yarn Integrity file
+.yarn-integrity
 
-# Generated Makefile
-# (meta build system like autotools,
-# can automatically generate from config.status script
-# (which is called by configure script))
-Makefile
+# Optional sass cache
+/.sass-cache
+gulpfile.tmp.*
+
+################################################################################
+############################### DEVELOPMENT_ONLY ###############################
+
+# Excludes generated
+/dist
+/build
+/tmp
+/temp
+
+# Assets
+# **/assets/vendor
+# **/static/vendor
+
+# HTML files
+/html-demo
+/html-starter-demo
+
+# Package Lock files
+/package-lock.json
